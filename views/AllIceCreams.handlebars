@@ -1,0 +1,17 @@
+<style media="screen">
+  li {
+    height : 90px;
+    width: 500px;
+    color: white;
+    background-color: blue;
+    margin-bottom: 30px;
+  }
+</style>
+
+<h1>All flavors!</h1>
+
+<ul>
+{{#each flavors }}
+  <li>Name {{name}} Price {{price}} Awesomeness {{awesomeness}}</li>
+{{/each}}
+</ul>
